@@ -1,0 +1,8 @@
+{
+  "id": "faq/FAQ",
+  "title": "FAQ",
+  "description": "Frequently Asked Questions",
+  "source": "@site/docs\\faq\\FAQ.md",
+  "permalink": "/docs/faq/FAQ",
+  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/faq/FAQ.md"
+}

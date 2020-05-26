@@ -1,0 +1,8 @@
+{
+  "id": "server_functions/list",
+  "title": "list",
+  "description": "Server functions",
+  "source": "@site/docs\\server_functions\\list.md",
+  "permalink": "/docs/server_functions/list",
+  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/server_functions/list.md"
+}

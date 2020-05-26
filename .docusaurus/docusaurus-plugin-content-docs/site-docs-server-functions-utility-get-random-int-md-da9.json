@@ -1,0 +1,8 @@
+{
+  "id": "server_functions/utility/getRandomInt",
+  "title": "getRandomInt",
+  "description": "utility.getRandomInt()",
+  "source": "@site/docs\\server_functions\\utility\\getRandomInt.md",
+  "permalink": "/docs/server_functions/utility/getRandomInt",
+  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/server_functions/utility/getRandomInt.md"
+}

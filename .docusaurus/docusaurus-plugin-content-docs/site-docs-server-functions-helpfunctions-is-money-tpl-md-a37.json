@@ -1,0 +1,8 @@
+{
+  "id": "server_functions/helpfunctions/isMoneyTpl",
+  "title": "isMoneyTpl",
+  "description": "utility.isMoneyTpl(tpl)",
+  "source": "@site/docs\\server_functions\\helpfunctions\\isMoneyTpl.md",
+  "permalink": "/docs/server_functions/helpfunctions/isMoneyTpl",
+  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/server_functions/helpfunctions/isMoneyTpl.md"
+}

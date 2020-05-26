@@ -1,0 +1,8 @@
+{
+  "id": "resources/index",
+  "title": "index",
+  "description": "Modders resources",
+  "source": "@site/docs\\resources\\index.md",
+  "permalink": "/docs/resources/index",
+  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/resources/index.md"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "server_functions/utility/getTimestamp",
+  "title": "getTimestamp",
+  "description": "utility.getTimestamp()",
+  "source": "@site/docs\\server_functions\\utility\\getTimestamp.md",
+  "permalink": "/docs/server_functions/utility/getTimestamp",
+  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/server_functions/utility/getTimestamp.md"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "server_functions/utility/removeDir",
+  "title": "removeDir",
+  "description": "utility.removeDir()",
+  "source": "@site/docs\\server_functions\\utility\\removeDir.md",
+  "permalink": "/docs/server_functions/utility/removeDir",
+  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/server_functions/utility/removeDir.md"
+}

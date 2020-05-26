@@ -1,0 +1,8 @@
+{
+  "id": "server_functions/helpfunctions/getCurrency",
+  "title": "getCurrency",
+  "description": "utility.getCurrency(string)",
+  "source": "@site/docs\\server_functions\\helpfunctions\\getCurrency.md",
+  "permalink": "/docs/server_functions/helpfunctions/getCurrency",
+  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/server_functions/helpfunctions/getCurrency.md"
+}

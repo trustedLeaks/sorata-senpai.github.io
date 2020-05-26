@@ -1,0 +1,8 @@
+{
+  "id": "tutorials/create_a_mod",
+  "title": "create_a_mod",
+  "description": "Create a mod on EmuTarkov",
+  "source": "@site/docs\\tutorials\\create_a_mod.md",
+  "permalink": "/docs/tutorials/create_a_mod",
+  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/tutorials/create_a_mod.md"
+}

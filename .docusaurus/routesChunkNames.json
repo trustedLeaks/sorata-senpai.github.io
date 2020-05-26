@@ -1,0 +1,298 @@
+{
+  "/": {
+    "component": "component---site-src-pages-index-jsece-a18"
+  },
+  "/blog": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "items": [
+      {
+        "content": "content---blog-99-c-ea6"
+      },
+      {
+        "content": "content---blogc-0-a-22b"
+      },
+      {
+        "content": "content---blog-273-7f3"
+      }
+    ],
+    "metadata": "metadata---blogbbb-5f9"
+  },
+  "/blog/hello-world": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---blog-hello-world-843-97f"
+  },
+  "/blog/hola": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---blog-holaaed-b12"
+  },
+  "/blog/tags": {
+    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+    "tags": "tags---blog-tags-8-be-13d"
+  },
+  "/blog/tags/docusaurus": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blog-99-c-ea6"
+      },
+      {
+        "content": "content---blogc-0-a-22b"
+      },
+      {
+        "content": "content---blog-273-7f3"
+      }
+    ],
+    "metadata": "metadata---blog-tags-docusaurus-6-ca-f43"
+  },
+  "/blog/tags/facebook": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blog-99-c-ea6"
+      }
+    ],
+    "metadata": "metadata---blog-tags-facebookeec-618"
+  },
+  "/blog/tags/hello": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blog-99-c-ea6"
+      },
+      {
+        "content": "content---blogc-0-a-22b"
+      }
+    ],
+    "metadata": "metadata---blog-tags-hello-3-a-6-b36"
+  },
+  "/blog/tags/hola": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blog-273-7f3"
+      }
+    ],
+    "metadata": "metadata---blog-tags-hola-31-d-e2f"
+  },
+  "/blog/welcome": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---blog-welcomea-9-a-cb6"
+  },
+  "/docs": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "docsMetadata": "docsMetadata---docs-44-b-27f",
+    "content": "content---docsb-7-a-3cf"
+  },
+  "/docs/:route": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "docsMetadata": "docsMetadata---docs-route-20-a-f24"
+  },
+  "/docs/Homepage": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docsb-7-a-3cf"
+  },
+  "/docs/LICENSE": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-license-411-89b"
+  },
+  "/docs/about": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-aboutb-93-4fd"
+  },
+  "/docs/faq/FAQ": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-faq-faq-301-098"
+  },
+  "/docs/resources/index": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-resources-indexa-89-2d7"
+  },
+  "/docs/resources/itemsStats_resources": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-resources-items-stats-resources-37-b-68c"
+  },
+  "/docs/resources/locations_resources": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-resources-locations-resources-646-2b0"
+  },
+  "/docs/resources/other_resources": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-resources-other-resourcesbfe-d65"
+  },
+  "/docs/resources/playerProfile_resources": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-resources-player-profile-resources-4-dd-1fb"
+  },
+  "/docs/resources/quests_resources": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-resources-quests-resources-9-f-4-95d"
+  },
+  "/docs/server_functions/helpfunctions/findAndReturnChildren": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-find-and-return-children-27-e-96e"
+  },
+  "/docs/server_functions/helpfunctions/findMoney": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-find-money-390-d06"
+  },
+  "/docs/server_functions/helpfunctions/fromRUB": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-from-rub-10-c-f68"
+  },
+  "/docs/server_functions/helpfunctions/getChildId": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-get-child-id-8-a-1-0d7"
+  },
+  "/docs/server_functions/helpfunctions/getCurrency": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-get-currencydd-1-c0b"
+  },
+  "/docs/server_functions/helpfunctions/getItem": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-get-item-16-c-3e6"
+  },
+  "/docs/server_functions/helpfunctions/getMoney": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-get-moneyd-46-eaf"
+  },
+  "/docs/server_functions/helpfunctions/getPlayerStash": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-get-player-stash-2-ce-3a5"
+  },
+  "/docs/server_functions/helpfunctions/getSize": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-get-size-546-a3c"
+  },
+  "/docs/server_functions/helpfunctions/inRUB": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-in-rub-7-f-9-d8e"
+  },
+  "/docs/server_functions/helpfunctions/isDogtag": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-is-dogtag-1-b-8-e2d"
+  },
+  "/docs/server_functions/helpfunctions/isMoneyTpl": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-is-money-tpla-37-8fc"
+  },
+  "/docs/server_functions/helpfunctions/payMoney": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-pay-moneye-36-2f2"
+  },
+  "/docs/server_functions/helpfunctions/recheckInventoryFreeSpace": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-recheck-inventory-free-space-6-d-4-b1c"
+  },
+  "/docs/server_functions/helpfunctions/replaceIds": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-helpfunctions-replace-ids-3-f-3-444"
+  },
+  "/docs/server_functions/index": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-index-401-f7d"
+  },
+  "/docs/server_functions/list": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-listd-1-f-376"
+  },
+  "/docs/server_functions/utility/adlerGen": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-adler-gena-66-a5c"
+  },
+  "/docs/server_functions/utility/clearString": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-clear-string-2-ef-fdf"
+  },
+  "/docs/server_functions/utility/generateNewAssortId": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-generate-new-assort-ida-92-3e7"
+  },
+  "/docs/server_functions/utility/generateNewDialogueId": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-generate-new-dialogue-idc-2-a-ed7"
+  },
+  "/docs/server_functions/utility/generateNewId": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-generate-new-idd-89-e0c"
+  },
+  "/docs/server_functions/utility/generateNewItemId": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-generate-new-item-id-306-0d7"
+  },
+  "/docs/server_functions/utility/getDate": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-get-datea-7-d-7cd"
+  },
+  "/docs/server_functions/utility/getDirList": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-get-dir-list-264-b62"
+  },
+  "/docs/server_functions/utility/getLocalIpAdress": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-get-local-ip-adress-610-875"
+  },
+  "/docs/server_functions/utility/getRandomInt": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-get-random-intda-9-8a0"
+  },
+  "/docs/server_functions/utility/getRandomIntEx": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-get-random-int-ex-382-837"
+  },
+  "/docs/server_functions/utility/getTime": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-get-timee-1-d-831"
+  },
+  "/docs/server_functions/utility/getTimestamp": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-get-timestampc-60-324"
+  },
+  "/docs/server_functions/utility/makeSign": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-make-sign-4-b-8-c70"
+  },
+  "/docs/server_functions/utility/removeDir": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-server-functions-utility-remove-dirbd-8-e9f"
+  },
+  "/docs/tutorials/bug-report": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-bug-report-658-108"
+  },
+  "/docs/tutorials/create_a_mod": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-create-a-mod-9-f-9-c38"
+  },
+  "/docs/tutorials/create_weather": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-create-weatherdfb-2d8"
+  },
+  "/docs/tutorials/development-environment-setup": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-development-environment-setup-3-a-2-f5e"
+  },
+  "/docs/tutorials/edit_globals_values": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-edit-globals-valuesedf-0ff"
+  },
+  "/docs/tutorials/edit_the_player_profile": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-edit-the-player-profileacb-8e8"
+  },
+  "/docs/tutorials/edit_traders_values": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-edit-traders-values-6-ab-25d"
+  },
+  "/docs/tutorials/edit_weapons_texture": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-edit-weapons-texturefca-64e"
+  },
+  "/docs/tutorials/index": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-index-26-a-25a"
+  },
+  "/docs/tutorials/photoshop_texture_editing": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-photoshop-texture-editing-7-a-2-9f7"
+  }
+}

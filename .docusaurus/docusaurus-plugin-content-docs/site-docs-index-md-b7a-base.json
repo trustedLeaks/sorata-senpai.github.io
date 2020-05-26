@@ -1,0 +1,22 @@
+{
+  "docsSidebars": {
+    "someSidebar": [
+      {
+        "type": "category",
+        "label": "Docusaurus",
+        "items": [
+          {
+            "type": "link",
+            "label": "Home",
+            "href": "/docs/Homepage"
+          }
+        ]
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/docs/Homepage": "someSidebar"
+  },
+  "isHomePage": true,
+  "homePagePath": "/docs/Homepage"
+}

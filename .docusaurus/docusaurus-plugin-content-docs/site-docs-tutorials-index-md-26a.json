@@ -1,0 +1,8 @@
+{
+  "id": "tutorials/index",
+  "title": "index",
+  "description": "EmuTarkov Tutorial",
+  "source": "@site/docs\\tutorials\\index.md",
+  "permalink": "/docs/tutorials/index",
+  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/tutorials/index.md"
+}

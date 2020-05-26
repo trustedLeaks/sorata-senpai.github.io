@@ -1,0 +1,9 @@
+{
+  "id": "Homepage",
+  "title": "EmuTarkov Documentation Homepage",
+  "description": "!logo",
+  "source": "@site/docs\\index.md",
+  "permalink": "/docs/Homepage",
+  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/index.md",
+  "sidebar_label": "Home"
+}
