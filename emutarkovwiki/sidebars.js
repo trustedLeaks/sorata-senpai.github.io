@@ -1,28 +1,48 @@
 module.exports = {
-  docs: {
-    'Home': ['Homepage'],
-    'FAQ': ['faq/FAQ'],
-    'Tutorials':['tutorials/index_tutorials',
-    'tutorials/development-environment-setup',
-    'tutorials/bug-report',
-    'tutorials/create_a_mod',
-    'tutorials/edit_weapons_textures',
-    'tutorials/photoshop_texture_editing',
-    'tutorials/edit_the_player_profile',
-    'tutorials/edit_globals_values',
-    'tutorials/edit_traders_values',
-    'tutorials/create_weather'],
-    'Modders resources':[
-      'resources/index_mods',
-      'resources/playerProfile_resources',
-      'resources/itemsStats_resources',
-      'resources/locations_resources',
-      'resources/quests_resources',
-      'resources/other_resources'],
-  },
-  'Developpers resources': {
-      'Developpment Index': ['server_functions/index_dev'],
-      'helpfunctions':[
+  docs: [
+    {
+      type: 'doc',
+      id: 'Homepage'
+    },
+    {
+      type: 'doc',
+      id: 'faq/FAQ'
+    },
+    {
+      type: "category",
+      label: "Tutorials",
+      items: ['tutorials/index_tutorials',
+      'tutorials/development-environment-setup',
+      'tutorials/bug-report',
+      'tutorials/create_a_mod',
+      'tutorials/edit_weapons_textures',
+      'tutorials/photoshop_texture_editing',
+      'tutorials/edit_the_player_profile',
+      'tutorials/edit_globals_values',
+      'tutorials/edit_traders_values',
+      'tutorials/create_weather']
+    },
+    {
+      type: "category",
+      label: "Modders resources",
+      items:[
+        'resources/index_mods',
+        'resources/playerProfile_resources',
+        'resources/itemsStats_resources',
+        'resources/locations_resources',
+        'resources/quests_resources',
+        'resources/other_resources']
+    }
+  ],
+  'Developpers resources': [
+    {
+      type: 'doc',
+      id: 'server_functions/index_dev'
+    },
+    {
+      type: "category",
+      label: "helpfunctions",
+      items: [
         'server_functions/helpfunctions/arrayIntersect',
         'server_functions/helpfunctions/childrenCategories',
         'server_functions/helpfunctions/clone',
@@ -47,8 +67,12 @@ module.exports = {
         'server_functions/helpfunctions/replaceIds',
         'server_functions/helpfunctions/splitStack',
         'server_functions/helpfunctions/templatesWithParent'
-      ],
-      'utility':[
+      ]
+    },
+    {
+      type: "category",
+      label: "utility",
+      items: [
         'server_functions/utility/adlerGen',
         'server_functions/utility/clearString',
         'server_functions/utility/generateNewAccountId',
@@ -64,8 +88,12 @@ module.exports = {
         'server_functions/utility/makeSign',
         'server_functions/utility/removeDir',
         'server_functions/utility/secondsToTime'
-      ],
-      'hideout':[
+      ]
+    },
+    {
+      type: "category",
+      label: "hideout",
+      items: [
         'server_functions/hideout/applyPlayerUpgradeBonuses',
         'server_functions/hideout/continuousProductionStart',
         'server_functions/hideout/getBTC',
@@ -79,15 +107,28 @@ module.exports = {
         'server_functions/hideout/toggleArea',
         'server_functions/hideout/upgrade',
         'server_functions/hideout/upgradeComplete'
-      ],
-      'account':[
+      ]
+    },
+    {
+      type: "category",
+      label: "account",
+      items: [
         'server_functions/account/getPath'
-      ],
-      'bots':[
+      ]
+    },
+    {
+      type: "category",
+      label: "bots",
+      items: [
         'server_functions/bots/generatePlayerScav'
-      ],
-      'customization':[
+      ]
+    },
+    {
+      type: "category",
+      label: "customization",
+      items: [
         'server_functions/customization/getCustomization'
       ]
-    }   
-  };
+    }
+  ]
+};

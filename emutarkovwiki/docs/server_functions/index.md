@@ -11,3 +11,5 @@ sidebar_label: Server resources - Index
 :::danger
 Whatever you find on this page, it is actually not updated and only for testing and "styling" purpose.
 :::
+
+If you're willing to contribute to the documentation, there's a placeholder file available here for improving code documentation: https://github.com/Sorata-senpai/sorata-senpai.github.io/blob/developpement/emutarkovwiki/docs/server_functions/placeHolder_file.md
