@@ -3,7 +3,7 @@ id: fromRUB
 title: fromRUB
 sidebar_label: fromRUB
 ---
-## utility.fromRUB(number,string)
+## itm_hf.fromRUB(number,string)
 
 Convert specified rouble amount into specific currency
 *Number* need to be any value
@@ -13,5 +13,5 @@ Convert specified rouble amount into specific currency
 ```js
 const number = 150000
 const currency = "dollar_tpl"
-const convertedAmount = utility.fromRUB(number,currency)
+const convertedAmount = itm_hf.fromRUB(number,currency)
 ```

@@ -23,7 +23,11 @@ module.exports = {
   'Developpers resources': {
       'Developpment Index': ['server_functions/index_dev'],
       'helpfunctions':[
+        'server_functions/helpfunctions/arrayIntersect',
+        'server_functions/helpfunctions/childrenCategories',
+        'server_functions/helpfunctions/clone',
         'server_functions/helpfunctions/findAndReturnChildren',
+        'server_functions/helpfunctions/findInventoryItemById',
         'server_functions/helpfunctions/findMoney',
         'server_functions/helpfunctions/fromRUB',
         'server_functions/helpfunctions/getChildId',
@@ -32,19 +36,23 @@ module.exports = {
         'server_functions/helpfunctions/getMoney',
         'server_functions/helpfunctions/getPlayerStash',
         'server_functions/helpfunctions/getSize',
+        'server_functions/helpfunctions/getTemplatePrice',
         'server_functions/helpfunctions/inRUB',
+        'server_functions/helpfunctions/isCategory',
         'server_functions/helpfunctions/isDogtag',
         'server_functions/helpfunctions/isMoneyTpl',
+        'server_functions/helpfunctions/isNotSellable',
         'server_functions/helpfunctions/payMoney',
         'server_functions/helpfunctions/recheckInventoryFreeSpace',
-        'server_functions/helpfunctions/replaceIds'
+        'server_functions/helpfunctions/replaceIds',
+        'server_functions/helpfunctions/splitStack',
+        'server_functions/helpfunctions/templatesWithParent'
       ],
       'utility':[
         'server_functions/utility/adlerGen',
         'server_functions/utility/clearString',
-        'server_functions/utility/generateNewAssortId',
+        'server_functions/utility/generateNewAccountId',
         'server_functions/utility/generateNewDialogueId',
-        'server_functions/utility/generateNewId',
         'server_functions/utility/generateNewItemId',
         'server_functions/utility/getDate',
         'server_functions/utility/getDirList',
@@ -54,7 +62,8 @@ module.exports = {
         'server_functions/utility/getTime',
         'server_functions/utility/getTimestamp',
         'server_functions/utility/makeSign',
-        'server_functions/utility/removeDir'
+        'server_functions/utility/removeDir',
+        'server_functions/utility/secondsToTime'
       ],
       'account':[
         'server_functions/account/getPath'

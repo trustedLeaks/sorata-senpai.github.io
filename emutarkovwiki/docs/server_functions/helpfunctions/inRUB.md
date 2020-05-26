@@ -3,7 +3,7 @@ id: inRUB
 title: inRUB
 sidebar_label: inRUB
 ---
-## utility.inRUB(number,string)
+## itm_hf.inRUB(number,string)
 
 Convert specified amount from specific currency into roubles currency
 *Number* need to be any value
