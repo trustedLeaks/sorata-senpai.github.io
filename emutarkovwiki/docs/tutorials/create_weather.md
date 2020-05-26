@@ -12,7 +12,7 @@ So yeah, information on this page is likely to change in the future
 2. Rename the weather present to what you want
 3. Make changes where needed
 
-We recommend you to add the weather as a mod. More info here : https://kandasoranyan.github.io/EmuTarkovWiki/#/tutorials/create_a_mod
+We recommend you to add the weather as a mod. More info here : https://sorata-senpai.github.io/docs/tutorials/create_a_mod
 
 ## Editing weather
 Note that the weather files are loaded only when the server starts. If you make changes to a weather profile during the game, restart the server for the changes to take into effect.
@@ -43,5 +43,5 @@ rainIntensity              | 0    | 2
 temp                       | -50  | 50
 accelerate                 | 0    | 10
 
-# Official links
+## Official links
 **Discord link**: https://discord.gg/3sR4KKS

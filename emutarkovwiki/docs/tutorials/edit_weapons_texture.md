@@ -7,10 +7,11 @@ sidebar_label: Tutorial - Edit weapons textures
 ## Explanation
 What we are going to do, is editing base gamefiles textures of a weapon, for making it a camo texture.
 
-/!\ Important information /!\
-**MAKE A BACKUP OF EVERYFILES YOU ARE GONNA EDIT IN THIS TUTORIAL, THIS IS VERY IMPORTANT**
+:::danger
+Always make a backup of the file you're editing.
+:::
 
-## Dependencies
+## Requirements
 In order to edit weaons textures, you will need some specific softwares. The software you need are :
 * AssetBundleExtractor - https://github.com/DerPopo/UABE/releases
 * Photoshop
@@ -83,11 +84,11 @@ When it's done, rename the original *client_assets.bundle* file to **client_asse
 Now we have done every step of this tutorial, you can start the game, and see how your gun looks !
 
 Final result : ![image](https://i.imgur.com/VZUbL9n.jpg)
-### The end
+## The end
 You now, know how to edit files textures on Escape From Tarkov ! This works for every textures on the game. Feel free to share your work on discord !
 
-# Thanks
+## Thanks
 **Thanks to @KandaSoranyan alias Sorata-sempai on discord for making this tutorial**
 
-# Official links
+## Official links
 **Discord link**: https://discord.gg/3sR4KKS

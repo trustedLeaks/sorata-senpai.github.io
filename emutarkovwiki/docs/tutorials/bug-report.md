@@ -11,6 +11,7 @@ sidebar_label: Tutorial - Bug report
 :::danger ALERT: THIS IS ONLY FOR REPORTING BUGS, NOT IF YOU HAVE ISSUES WITH YOUR GAME
 Always ask your questions first in general or EFT, if it turns out to be a bug then report it on the github issue tracker.
 :::
+
 ### the issue is already reported?
 leave a reaction emoji on the issue, and any additional information if required.
 
@@ -41,5 +42,5 @@ Client: <game version>
 3. <etc>
 ```
 
-# Official links
+## Official links
 **Discord link**: https://discord.gg/3sR4KKS

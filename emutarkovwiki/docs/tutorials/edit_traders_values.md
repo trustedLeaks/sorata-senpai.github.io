@@ -1,5 +1,5 @@
 ---
-id: edit_the_player_profile
+id: edit_traders_values
 title: Change some traders behaviour
 sidebar_label: Tutorial - Change some traders behaviour
 ---
@@ -15,13 +15,15 @@ For this, heads to `ServerFolder/db/assort/` choose the trader your want to modi
 
 For all next tutorials, we will change only one trader, and always the same, this is *Prapor* and his ID is : **54cb50c76803fa8b248b4571**
 
-**⚠️ <font color="red">If you want to make any changes, close both the game and the server, none of these should run ⚠️ .</font>**
+:::danger
+If you want to make any changes, close both the game and the server, none of these should run.
+:::
 
 ## Table :
-* [Change traders avatars](tutorials/edit_traders_values.md#Change-traders-avatars)
-* [Change insurance return time and max storage time](tutorials/edit_traders_values.md#Change-insurance-return-time-and-the-storage-time-in-mail)
-* [Change repair quality and currency](tutorials/edit_traders_values.md#Change-repair-quality-and-currency)
-* [Change traders Loyalty levels requirements](tutorials/edit_traders_values.md#Change-traders-LL-requirements)
+* [Change traders avatars](edit_traders_values.md#change-traders-avatars)
+* [Change insurance return time and max storage time](edit_traders_values.md#change-insurance-return-time-and-the-storage-time-in-mail)
+* [Change repair quality and currency](edit_traders_values.md#change-repair-quality-and-currency)
+* [Change traders Loyalty levels requirements](edit_traders_values.md#change-traders-ll-requirements)
 
 
 ## Change traders avatars
@@ -29,7 +31,7 @@ We will here learn how to change the return time of your insured items. For this
 
 And heads to this following line : **"avatar":**
 
-This is defining the avatar path for the trader, you will need to add to your mod the new avatar your to use, for this, you can see [create a mod](tutorials/create_a_mod.md) tutorial. 
+This is defining the avatar path for the trader, you will need to add to your mod the new avatar your to use, for this, you can see [create a mod](create_a_mod.md) tutorial. 
 
 `"/files/trader/avatar/54cb50c76803fa8b248b4571.jpg"` files is defining the "res" folder, wich for us it's most likely /res/trader/avatar/id.jpg. So you need to put in your mod, a new folder at the same place as the **db** folder, called **res** and add the following path **trader/avatar/** into the **res** folder. Add your picture here, add it to your mod.config.json too and save the files ! You can use whatever name you want for the picture, you can replace the default one, or add a new one and change its path into base.json. You can now save all your files and start the server !
 
@@ -73,7 +75,7 @@ Note that values can't have decimals, because this is **hour** and 1.5 hour does
 So no you can save your changes, remove all other unused files from your mods (aka all files except base.json) add the base.json to your mod.config.json, save and you can now restart the game ! At next raid, if you die, items will be imediatly sent back to your mail list.
 
 
-[Back at the top](tutorials/edit_traders_values.md#Change-some-traders-behaviour)
+[Back at the top](edit_traders_values.md#change-some-traders-behaviour)
 
 ## Change repair quality and currency
 We will here learn how to change the return time of your insured items. For this heads to `/ServerFolder/user/mods/Author-YouModName-1.0.0/db/assort/54cb50c76803fa8b248b4571/base.json`.
@@ -115,7 +117,7 @@ You can now save your file base.json, remove all unused files in your mods (so o
 You can now restart your server and see the changes in game !
 
 
-[Back at the top](tutorials/edit_traders_values.md#Change-some-traders-behaviour)
+[Back at the top](edit_traders_values.md#change-some-traders-behaviour)
 
 ## Change traders LL requirements
 We will here learn how to change the return time of your insured items. For this heads to `/ServerFolder/user/mods/Author-YouModName-1.0.0/db/assort/54cb50c76803fa8b248b4571/base.json`.
@@ -166,10 +168,10 @@ We will now increase the minimum amount of cash the player spent into a trader. 
 Restart your server and see the changes in game !
 
 
-[Back at the top](tutorials/edit_traders_values.md#Change-some-traders-behaviour)
+[Back at the top](edit_traders_values.md#change-some-traders-behaviour)
 
-# Thanks
+## Thanks
 **Tutorials made by : Sorata-Senpai**
 
-# Official links
+## Official links
 **Discord link**: https://discord.gg/3sR4KKS

@@ -13,17 +13,18 @@ This software is free and very helpfull for a lot of things, like missing comas 
 
 For this, head to `ServerFolder/db/` make a backup of **globals.json** file and [create a mod](tutorials/create_a_mod) with the **globals.json** file in it.
 
-
-**⚠️ <font color="red">If you want to make any changes, close both the game and the server, none of these should run ⚠️ .</font>**
+:::danger
+If you want to make any changes, close both the game and the server, none of these should run.
+:::
 
 ## Table :
-* [Change minimum level for flea market](tutorials/edit_globals_values.md#Change-minimum-level-for-flea-market)
-* [Change exp related stuff](tutorials/edit_globals_values.md#Change-exp-related-stuff)
-* [Change stamina stuff](tutorials/edit_globals_values.md#Change-stamina-stuff)
-* [Change weight stuff](tutorials/edit_globals_values.md#Change-weight-stuff)
-* [Change health effect stuff](tutorials/edit_globals_values.md#Change-health-effect-stuff)
-* [Increase how much money i can carry in a raid](tutorials/edit_globals_values.md#Increase-how-much-money-i-can-carry-in-a-raid)
-* [Remove the fatigue effect on skills](tutorials/edit_globals_values.md#Remove-the-fatigue-effect-on-skills)
+* [Change minimum level for flea market](edit_globals_values.md#change-minimum-level-for-flea-market)
+* [Change exp related stuff](edit_globals_values.md#change-exp-related-stuff)
+* [Change stamina stuff](edit_globals_values.md#change-stamina-stuff)
+* [Change weight stuff](edit_globals_values.md#change-weight-stuff)
+* [Change health effect stuff](edit_globals_values.md#change-health-effect-stuff)
+* [Increase how much money i can carry in a raid](edit_globals_values.md#increase-how-much-money-i-can-carry-in-a-raid)
+* [Remove the fatigue effect on skills](edit_globals_values.md#remove-the-fatigue-effect-on-skills)
 
 ## Change minimum level for flea market
 We are going to change the minimum level requirement in order to access the flea market in EmuTarkov. Head to this file : **ServerFile/db/globals.json** and open it.
@@ -70,8 +71,8 @@ First of all, you need to know that the "skill fatigue" is a value incremented d
 
 In order to not having a skill in a fatigue state, we will simply change the **SkillFatiguePerPoint** variable value by *0*. After that save your change, [recache](faq/FAQ.md#how-do-i-recache-my-server-) the server and that's good !
 
-# Thanks
+## Thanks
 **Tutorials made by : Sorata-Senpai**
 
-# Official links
+## Official links
 **Discord link**: https://discord.gg/3sR4KKS

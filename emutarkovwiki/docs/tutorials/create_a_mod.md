@@ -3,6 +3,12 @@ id: create_a_mod
 title: Create a mod on EmuTarkov
 sidebar_label: Tutorial - How to create a mod on EmuTarkov
 ---
+## Requirements:
+You will need these requirements in order to successfully create your mod.
+
+* [VSCodium](https://vscodium.com/)
+* [EmuTarkov server](https://github.com/TrustedSourceLeaks/LeakedServer)
+* A little bit of logic
 
 ## Why making my changes as a mod ?
 By using a mod for your changes, it make it easier for you to manage your edits, and avoid any issue with base DB files. That's for this reason we recommend you to make it as mod, for not overwritting base files. It will avoid you to loose them when you upgrade your server too.
@@ -12,6 +18,10 @@ By using a mod for your changes, it make it easier for you to manage your edits,
 Well, modding is simple : Overwritting loaded files by the one you added to your mod without editing the default one located in `ServerDir/db/`.
 
 * Create your mod folder, the name need to match like this : **author-name-Version** depending on what you put in the *server.config.json*.
+
+:::info
+Your mod folder name should absolutely match the mod.config.json values: Author-Name-Version otherwise the mod wont load
+:::
 * In this mod folder, create a file called **mod.config.json** and put the following code in :
 ```json
 {
@@ -380,6 +390,10 @@ As you can see, there's the filepath for each moddable part, we will edit this p
 ```
 * Save your mod.config.json and start the server. It should recache and your mod is working ! Good job comrade !
 
+:::danger Attention
+If any of the ModName, author or version number isn't the same in mod.config.json and the folder name, the server wont start and will crash.
+:::
+
 ### License
 It's important to tell which license your mod uses, as this also tells other modders what they can do with your work.
 Do you use a license? If none, set this to MIT (which basically says that others can use your work for anything but you are not responsible if you break something in your mod). If you do, set this to the short code of your license (MPL-2.1 instead of Mozilla Public License 2.1).
@@ -394,13 +408,19 @@ Good job, you made your first mod for EmuTarkov, all other parts to be modded wo
 This wont let you know if your mod will works correctly in game, but it will only tell you if your file syntax is correct.
 :::
 
-```json live
-// Paste your code here buddy;
+```javascript live
+function test(){
+  const test =
+  //Put your mod.config.json below this line.
+  
+
+  return "Your JSON is OKAY"
+}
 ```
 
-# Thanks
+## Thanks
 **Thanks to @InNoHurryToCode for making modding possible on EmuTarkov !**
 
 **Tutorial made by : Sorata-Senpai**
-# Official links
+## Official links
 **Discord link**: https://discord.gg/3sR4KKS

@@ -1,12 +1,16 @@
 module.exports = {
   title: 'EmuTarkov Documentation',
   tagline: 'A complete documentation about EmuTarkov emulator for Escape From Tarkov.',
-  url: 'https://sorata-senpai.github.io/',
+  url: 'https://sorata.github.io/',
   baseUrl: '/',
   favicon: '',
-  organizationName: 'sorata-senpai', // Usually your GitHub org/user name.
-  projectName: 'sorata-senpai.github.io', // Usually your repo name.
+  organizationName: 'EmuTarkov', // Usually your GitHub org/user name.
+  projectName: 'EmuTarkov Wiki', // Usually your repo name.
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-135366714-3',
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     sidebarCollapsible: true,
     navbar: {
       title: 'EmuTarkov Documentation',
@@ -44,7 +48,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} EmuTarkov, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} EmuTarkov, Inc. Built with Docusaurus.<br>Emutarkov is not affiliated with Battlestate Games Ltd. in any way`,
     },
   },
   presets: [
@@ -57,7 +61,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/sorata/sorata.github.io/tree/master/emutarkovwiki',
+            'https://github.com/Sorata-senpai/sorata-senpai.github.io/tree/developpement/emutarkovwiki',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -66,7 +70,9 @@ module.exports = {
     ],
   ],
   plugins: [
-    //'@aldridged/docusaurus-plugin-lunr'
+    '@docusaurus/plugin-sitemap',
+    '@cmfcmf/docusaurus-search-local',
+    '@docusaurus/plugin-google-analytics'
   ],
   themes: ['@docusaurus/theme-live-codeblock'],
 };

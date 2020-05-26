@@ -13,17 +13,18 @@ This software is free and alot more helpfull for alot of things, like missing co
 
 For this, heads to `ServerFolder/user/profiles` and create a copy of the profile you're using (you should have only one if you don't know what you're doing, and need this tutorial).
 
-**⚠️ <font color="red">If you want to make any changes, close both the game and the server, none of these should run ⚠️ .</font>**
+:::danger
+If you want to make any changes, close both the game and the server, none of these should run.
+:::
 
-It's recommended too to do it on a fresh wiped profile.
 
 ## Table :
-* [Change your character level](tutorials/edit_the_player_profile.md#editing-my-character-level)
-* [Change your skills level](tutorials/edit_the_player_profile.md#changing-my-skills-level)
-* [Change your quests status](tutorials/edit_the_player_profile.md#change-quest-status)
-* [Change your hideouts areas status](tutorials/edit_the_player_profile.md#changing-hideout-areas-status)
-* [Change your traders loyalty level](tutorials/edit_the_player_profile.md#editing-traders) 
-* [Add money in your stash](tutorials/edit_the_player_profile.md#Adding-money-to-your-character)
+* [Change your character level](edit_the_player_profile.md#editing-my-character-level)
+* [Change your skills level](edit_the_player_profile.md#changing-my-skills-level)
+* [Change your quests status](edit_the_player_profile.md#change-quest-status)
+* [Change your hideouts areas status](edit_the_player_profile.md#changing-hideout-areas-status)
+* [Change your traders loyalty level](edit_the_player_profile.md#editing-traders) 
+* [Add money in your stash](edit_the_player_profile.md#adding-money-to-your-character)
 
 ## Editing my character level
 In this part, we are going to change your character level in EmuTarkov. For doing this we are going to make edits in the following file : `ServerFolder/user/profiles/accountID/character.json`.
@@ -90,7 +91,7 @@ According that the master level of the skill is **51** we will need to have **51
 At the end, the line for each skill you want to max out looks like this : **"Progress": 5100,**.
 
 
-[Back at the top](tutorials/edit_the_player_profile.md#editing-differents-things-in-my-player-profile)
+[Back at the top](edit_the_player_profile.md#editing-differents-things-in-my-player-profile)
 ## Change quest status
 Well, in this part you will learn how to change your quest status, that means, make it finished without having done the requirements for it (you mainly need to do this when a specific quest is bugged).
 
@@ -150,7 +151,7 @@ Don't forget to save your changes !
 
 
 
-[Back at the top](tutorials/edit_the_player_profile.md#editing-differents-things-in-my-player-profile)
+[Back at the top](edit_the_player_profile.md#editing-differents-things-in-my-player-profile)
 ## Changing hideout areas status
 Well, in this part you will learn how to change anything related to the hideout areas, that means, make it max level without having done the requirements for it.
 
@@ -196,7 +197,7 @@ The only thing you will have to do is changing the level to the max level number
 
 
 
-[Back at the top](tutorials/edit_the_player_profile.md#editing-differents-things-in-my-player-profile)
+[Back at the top](edit_the_player_profile.md#editing-differents-things-in-my-player-profile)
 ## Editing traders
 Well, in this part you will learn how to change your quest status, that means, make it finished without having done the requirements for it (you mainly need to do this when a specific quest is bugged)..
 
@@ -256,7 +257,7 @@ So, for making all traders at their max loyalty level, we are going to take valu
 
 Only last thing is to save the changes ! And you're done, the trader is LL4 now. You can find the list of all traders ID here : [Traders ID List](resources/other_resources.md).
 
-[Back at the top](tutorials/edit_the_player_profile.md#editing-differents-things-in-my-player-profile)
+[Back at the top](edit_the_player_profile.md#editing-differents-things-in-my-player-profile)
 
 
 ## Adding money to your character
@@ -270,11 +271,11 @@ This line is defining how much money the stack contain, and this is this line we
 
 Save your changes and start the server, you now have a stack of 99.999.999 money !
 
-[Back at the top](tutorials/edit_the_player_profile.md#editing-differents-things-in-my-player-profile)
+[Back at the top](edit_the_player_profile.md#editing-differents-things-in-my-player-profile)
 
 
-# Thanks
+## Thanks
 **Tutorials made by : Sorata-Senpai**
 
-# Official links
+## Official links
 **Discord link**: https://discord.gg/3sR4KKS

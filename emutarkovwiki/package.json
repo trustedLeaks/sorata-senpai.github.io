@@ -10,9 +10,14 @@
   },
   "dependencies": {
     "@aldridged/docusaurus-plugin-lunr": "^1.0.0-alpha.8",
+    "@cmfcmf/docusaurus-search-local": "^0.1.3",
     "@docusaurus/core": "^2.0.0-alpha.55",
+    "@docusaurus/plugin-google-analytics": "^2.0.0-alpha.37",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.39",
+    "@docusaurus/plugin-sitemap": "^2.0.0-alpha.37",
     "@docusaurus/preset-classic": "^2.0.0-alpha.55",
     "@docusaurus/theme-live-codeblock": "^2.0.0-alpha.39",
+    "@docusaurus/theme-search-algolia": "^2.0.0-alpha.32",
     "classnames": "^2.2.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"

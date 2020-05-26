@@ -8,6 +8,15 @@ sidebar_label: Tutorial - Index
 
 ## All available tutorials :
 
+
+### [How to setup your development environment](tutorials/development-environment-setup.md)
+#### Which contain :
+* A full tutorial on how to setup your development environment
+
+### [How to do a bug report](tutorials/bug-report.md)
+#### Which contain :
+* A full tutorial on how to properly report a bug
+
 ### [Create a mod](tutorials/create_a_mod.md)
 #### Which contain :
 * A full tutorial about creating a mod
@@ -42,14 +51,6 @@ sidebar_label: Tutorial - Index
 #### Which contain :
 * A full tutorial on how to change weapon' textures on Escape From Tarkov
 * A tutorial to texture editing on [photoshop](tutorials/photoshop_texture_editing.md)
-
-### [How to do a bug report](tutorials/bug-report.md)
-#### Which contain :
-* A full tutorial on how to properly report a bug
-
-### [How to setup your development environment](tutorials/development-environment-setup.md)
-#### Which contain :
-* A full tutorial on how to setup your development environment
 
 ### [Create a weather preset](tutorials/create_weather.md)
 #### Which contain :

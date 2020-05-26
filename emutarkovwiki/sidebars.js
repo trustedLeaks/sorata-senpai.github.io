@@ -10,7 +10,7 @@ module.exports = {
     'tutorials/photoshop_texture_editing',
     'tutorials/edit_the_player_profile',
     'tutorials/edit_globals_values',
-    'tutorials/edit_the_player_profile',
+    'tutorials/edit_traders_values',
     'tutorials/create_weather'],
     'Modders resources':[
       'resources/index_mods',
@@ -55,6 +55,15 @@ module.exports = {
         'server_functions/utility/getTimestamp',
         'server_functions/utility/makeSign',
         'server_functions/utility/removeDir'
+      ],
+      'account':[
+        'server_functions/account/getPath'
+      ],
+      'bots':[
+        'server_functions/bots/generatePlayerScav'
+      ],
+      'customization':[
+        'server_functions/customization/getCustomization'
       ]
     }   
   };
