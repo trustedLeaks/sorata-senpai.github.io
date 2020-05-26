@@ -65,6 +65,21 @@ module.exports = {
         'server_functions/utility/removeDir',
         'server_functions/utility/secondsToTime'
       ],
+      'hideout':[
+        'server_functions/hideout/applyPlayerUpgradeBonuses',
+        'server_functions/hideout/continuousProductionStart',
+        'server_functions/hideout/getBTC',
+        'server_functions/hideout/initialize',
+        'server_functions/hideout/putItemsInAreaSlots',
+        'server_functions/hideout/registerProduction',
+        'server_functions/hideout/scavCaseProductionStart',
+        'server_functions/hideout/singleProductionStart',
+        'server_functions/hideout/takeItemsFromAreaSlots',
+        'server_functions/hideout/takeProduction',
+        'server_functions/hideout/toggleArea',
+        'server_functions/hideout/upgrade',
+        'server_functions/hideout/upgradeComplete'
+      ],
       'account':[
         'server_functions/account/getPath'
       ],
