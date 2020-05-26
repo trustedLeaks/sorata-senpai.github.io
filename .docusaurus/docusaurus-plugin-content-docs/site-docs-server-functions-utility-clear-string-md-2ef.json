@@ -1,8 +1,0 @@
-{
-  "id": "server_functions/utility/clearString",
-  "title": "clearString",
-  "description": "utility.clearString(string)",
-  "source": "@site/docs\\server_functions\\utility\\clearString.md",
-  "permalink": "/docs/server_functions/utility/clearString",
-  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/server_functions/utility/clearString.md"
-}

@@ -1,8 +1,0 @@
-{
-  "id": "server_functions/helpfunctions/payMoney",
-  "title": "payMoney",
-  "description": "utility.payMoney(pmcData, body, sessionID)",
-  "source": "@site/docs\\server_functions\\helpfunctions\\payMoney.md",
-  "permalink": "/docs/server_functions/helpfunctions/payMoney",
-  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/server_functions/helpfunctions/payMoney.md"
-}

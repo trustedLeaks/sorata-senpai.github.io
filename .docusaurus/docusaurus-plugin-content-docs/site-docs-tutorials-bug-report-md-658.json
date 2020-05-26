@@ -1,8 +1,0 @@
-{
-  "id": "tutorials/bug-report",
-  "title": "bug-report",
-  "description": "ALERT: THIS IS ONLY FOR REPORTING BUGS, NOT IF YOU HAVE ISSUES WITH YOUR GAME",
-  "source": "@site/docs\\tutorials\\bug-report.md",
-  "permalink": "/docs/tutorials/bug-report",
-  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/tutorials/bug-report.md"
-}

@@ -1,8 +1,0 @@
-{
-  "id": "server_functions/utility/getLocalIpAdress",
-  "title": "getLocalIpAdress",
-  "description": "utility.getLocalIpAddress()",
-  "source": "@site/docs\\server_functions\\utility\\getLocalIpAdress.md",
-  "permalink": "/docs/server_functions/utility/getLocalIpAdress",
-  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/server_functions/utility/getLocalIpAdress.md"
-}

@@ -1,8 +1,0 @@
-{
-  "id": "tutorials/edit_globals_values",
-  "title": "edit_globals_values",
-  "description": "Change global values of the server",
-  "source": "@site/docs\\tutorials\\edit_globals_values.md",
-  "permalink": "/docs/tutorials/edit_globals_values",
-  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/tutorials/edit_globals_values.md"
-}

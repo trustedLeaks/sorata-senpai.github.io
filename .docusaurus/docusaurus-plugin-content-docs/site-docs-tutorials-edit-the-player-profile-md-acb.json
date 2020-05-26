@@ -1,8 +1,0 @@
-{
-  "id": "tutorials/edit_the_player_profile",
-  "title": "edit_the_player_profile",
-  "description": "Editing differents things in my player profile",
-  "source": "@site/docs\\tutorials\\edit_the_player_profile.md",
-  "permalink": "/docs/tutorials/edit_the_player_profile",
-  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/tutorials/edit_the_player_profile.md"
-}

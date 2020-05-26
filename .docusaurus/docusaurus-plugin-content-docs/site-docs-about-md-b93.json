@@ -1,8 +1,0 @@
-{
-  "id": "about",
-  "title": "about",
-  "description": "!logo",
-  "source": "@site/docs\\about.md",
-  "permalink": "/docs/about",
-  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/about.md"
-}

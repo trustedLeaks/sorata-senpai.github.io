@@ -1,8 +1,0 @@
-{
-  "id": "server_functions/helpfunctions/fromRUB",
-  "title": "fromRUB",
-  "description": "utility.fromRUB(number,string)",
-  "source": "@site/docs\\server_functions\\helpfunctions\\fromRUB.md",
-  "permalink": "/docs/server_functions/helpfunctions/fromRUB",
-  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/server_functions/helpfunctions/fromRUB.md"
-}

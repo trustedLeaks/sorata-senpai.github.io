@@ -1,8 +1,0 @@
-{
-  "id": "server_functions/utility/getTime",
-  "title": "getTime",
-  "description": "utility.getTime()",
-  "source": "@site/docs\\server_functions\\utility\\getTime.md",
-  "permalink": "/docs/server_functions/utility/getTime",
-  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/server_functions/utility/getTime.md"
-}

@@ -1,8 +1,0 @@
-{
-  "id": "server_functions/utility/generateNewDialogueId",
-  "title": "generateNewDialogueId",
-  "description": "utility.generateNewDialogueId()",
-  "source": "@site/docs\\server_functions\\utility\\generateNewDialogueId.md",
-  "permalink": "/docs/server_functions/utility/generateNewDialogueId",
-  "editUrl": "https://github.com/KandaSoranyan/Docosaurus/tree/master/docs/server_functions/utility/generateNewDialogueId.md"
-}
