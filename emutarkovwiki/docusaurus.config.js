@@ -68,5 +68,5 @@ module.exports = {
   plugins: [
     //'@aldridged/docusaurus-plugin-lunr'
   ],
-  themes: ['@docusaurus/theme-live-codeblock','docusaurus-theme-search-algolia'],
+  themes: ['@docusaurus/theme-live-codeblock'],
 };

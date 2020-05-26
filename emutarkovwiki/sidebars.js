@@ -1,6 +1,6 @@
 module.exports = {
   docs: {
-    'Home': ['/'],
+    'Home': ['Homepage'],
     'FAQ': ['faq/FAQ'],
     'Tutorials':['tutorials/index_tutorials',
     'tutorials/development-environment-setup',
