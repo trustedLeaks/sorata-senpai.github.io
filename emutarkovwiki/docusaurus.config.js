@@ -1,11 +1,11 @@
 module.exports = {
   title: 'EmuTarkov Documentation',
   tagline: 'A complete documentation about EmuTarkov emulator for Escape From Tarkov.',
-  url: 'https://sorata.github.io/',
+  url: 'https://sorata-senpai.github.io/',
   baseUrl: '/',
   favicon: '',
-  organizationName: 'EmuTarkov', // Usually your GitHub org/user name.
-  projectName: 'EmuTarkov Wiki', // Usually your repo name.
+  organizationName: 'sorata-senpai', // Usually your GitHub org/user name.
+  projectName: 'sorata-senpai.github.io', // Usually your repo name.
   themeConfig: {
     sidebarCollapsible: true,
     navbar: {
