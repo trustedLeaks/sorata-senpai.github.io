@@ -13,7 +13,7 @@ This software is free and very helpfull for a lot of things, like missing comas 
 
 For this, head to `ServerFolder/db/` make a backup of **globals.json** file and [create a mod](tutorials/create_a_mod) with the **globals.json** file in it.
 
-:::danger
+:::caution
 If you want to make any changes, close both the game and the server, none of these should run.
 :::
 

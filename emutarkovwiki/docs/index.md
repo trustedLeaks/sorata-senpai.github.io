@@ -1,6 +1,6 @@
 ---
 id: Homepage
-title: Documentation
+title: Homepage
 sidebar_label: Home
 ---
 

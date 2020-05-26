@@ -13,7 +13,7 @@ This software is free and alot more helpfull for alot of things, like missing co
 
 For this, heads to `ServerFolder/user/profiles` and create a copy of the profile you're using (you should have only one if you don't know what you're doing, and need this tutorial).
 
-:::danger
+:::caution
 If you want to make any changes, close both the game and the server, none of these should run.
 :::
 

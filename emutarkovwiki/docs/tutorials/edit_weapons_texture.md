@@ -7,7 +7,7 @@ sidebar_label: Tutorial - Edit weapons textures
 ## Explanation
 What we are going to do, is editing base gamefiles textures of a weapon, for making it a camo texture.
 
-:::danger
+:::caution
 Always make a backup of the file you're editing.
 :::
 

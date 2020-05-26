@@ -58,7 +58,7 @@ You're not forced to build the server in order to use it.
 3. Click on Toolbar -> Build -> Rebuild Solution
 4. Copy `Launcher/bin/<target>/EmuTarkov-Launcher.exe` into *GameDir/*
 
-:::danger Attention
+:::caution Attention
 If an error appear about Emulibs thing, ignore it
 :::
 

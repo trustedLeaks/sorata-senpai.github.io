@@ -8,7 +8,7 @@ sidebar_label: Tutorial - Bug report
 - make sure that it's indeed a bug you report!
 - make sure that the issue hasn't been reported already!
 
-:::danger ALERT: THIS IS ONLY FOR REPORTING BUGS, NOT IF YOU HAVE ISSUES WITH YOUR GAME
+:::warning ALERT: THIS IS ONLY FOR REPORTING BUGS, NOT IF YOU HAVE ISSUES WITH YOUR GAME
 Always ask your questions first in general or EFT, if it turns out to be a bug then report it on the github issue tracker.
 :::
 

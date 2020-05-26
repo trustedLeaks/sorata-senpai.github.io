@@ -71,6 +71,22 @@ function Home() {
               to={useBaseUrl('docs/')}>
               Get Started
             </Link>
+            <Link
+              className={classnames(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/faq/FAQ')}>
+              Read the FAQ
+            </Link>
+            <Link
+              className={classnames(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/about')}>
+              About EmuTarkov
+            </Link>
           </div>
         </div>
       </header>

@@ -15,7 +15,7 @@ For this, heads to `ServerFolder/db/assort/` choose the trader your want to modi
 
 For all next tutorials, we will change only one trader, and always the same, this is *Prapor* and his ID is : **54cb50c76803fa8b248b4571**
 
-:::danger
+:::caution
 If you want to make any changes, close both the game and the server, none of these should run.
 :::
 
