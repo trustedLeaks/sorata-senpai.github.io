@@ -3,7 +3,7 @@ id: getPath
 title: customization_f.getPath
 sidebar_label: getPath
 ---
-![](/img/github.png) [src/classes/bots.js](https://github.com/TrustedSourceLeaks/LeakedServer/blob/master/src/classes/bots.js#L3)
+![](/img/github.png) [src/classes/customization.js](https://github.com/TrustedSourceLeaks/LeakedServer/blob/master/src/classes/customization.js#L3)
 
 Explanation text
 
