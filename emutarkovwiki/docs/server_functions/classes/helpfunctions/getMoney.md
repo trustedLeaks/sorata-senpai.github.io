@@ -11,9 +11,9 @@ Receive money back after selling
 
 Name  |   Description 
 ----------- |   -----------
-pmcData(`object`)  |   This argument must contain the pmcData object
-number(`int`)   |   This value is the number you want to return.
-body(`object`)  | This is the request body.
+pmcData(<font color="red">object</font>)  |   This argument must contain the pmcData object
+number(<font color="red">int</font>)   |   This value is the number you want to return.
+body(<font color="red">object</font>)  | This is the request body.
 
 
 **Output**:
@@ -21,7 +21,7 @@ body(`object`)  | This is the request body.
 None
 
 
-**Exemple**:
+**Example**:
 ```js
 const test = itm_hf.getMoney(pmcData, amount, body)
 ```

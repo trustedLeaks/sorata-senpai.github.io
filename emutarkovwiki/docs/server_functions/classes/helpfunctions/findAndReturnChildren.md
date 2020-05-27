@@ -11,16 +11,16 @@ Find And Return Children (TRegular)
 
 Name  |   Description 
 ----------- |   -----------
-pmcData(`object`)  |   This argument must contain the pmcData object
-itemID(`string`)    | This is a `string` containing an item ID
+pmcData(<font color="red">object</font>)  |   This argument must contain the pmcData object
+itemID(<font color="red">string</font>)    | This is a <font color="red">string</font> containing an item ID
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 const test = itm_hf.findAndReturnChildren(pmcData, itemID)
 ```

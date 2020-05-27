@@ -11,15 +11,15 @@ Explanation text
 
 Name  |   Description 
 ----------- |   -----------
-arg(`string`)  |   This value must contain an item TPL
+arg(<font color="red">string</font>)  |   This value must contain an item TPL
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 const itemTPL = 'I41487SQ4D8QS4D5'
 const convertedAmount = utility.isNotSellable(itemTPL)

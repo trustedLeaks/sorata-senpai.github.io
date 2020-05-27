@@ -11,15 +11,15 @@ Check if the how much free space the inventory have
 
 Name  |   Description 
 ----------- |   -----------
-pmcData(`object`)  |   This value must contain the pmcData object
+pmcData(<font color="red">object</font>)  |   This value must contain the pmcData object
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 let pmcData = profile_f.profileServer.getPmcProfile(sessionID);
 const FreeSpace = itm_hf.recheckInventoryFreeSpace(pmcData, sessionID)

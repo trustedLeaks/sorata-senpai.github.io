@@ -11,15 +11,15 @@ Explanation text
 
 Name  |   Description 
 ----------- |   -----------
-tpl(`object`)  |   This value must be an item TPL
+tpl(<font color="red">string</font>)  |   This value must be an item TPL
 
 
 **Output**:
 
-`boolean`
+**<font color="purple">boolean</font>**
 
 
-**Exemple**:
+**Example**:
 ```js
 const itemTPL = 'I16874QS879D4QS'
 const convertedAmount = utility.isDogtag(itemTPL)

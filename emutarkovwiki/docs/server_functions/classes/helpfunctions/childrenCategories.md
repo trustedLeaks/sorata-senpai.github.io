@@ -11,15 +11,15 @@ Explanation text
 
 Name  |   Description 
 ----------- |   -----------
-arg(`?`)  |   ?
+arg(<font color="red">?</font>)  |   ?
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 const test = itm_hf.childrenCategories(x)
 ```

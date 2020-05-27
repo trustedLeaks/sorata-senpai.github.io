@@ -11,15 +11,15 @@ Return you a random int with a maximum value you set
 
 Name  |   Description 
 ----------- |   -----------
-max(`int`)  |   This is an `int` wich define the maximum value
+max(<font color="red">int</font>)  |   This is an <font color="red">int</font> wich define the maximum value
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 const max = 125
 const example = utility.getRandomIntEx(max)

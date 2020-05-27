@@ -20,9 +20,9 @@ pmcData(`object`)  |   This is done from reversing `escape from tarkov` game
 `string`: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
-// Code to exemple
+// Code to Example
 ```
 
 **Result**:

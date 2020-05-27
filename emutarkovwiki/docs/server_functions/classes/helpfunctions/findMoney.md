@@ -11,16 +11,16 @@ Find Barter items in the inventory
 
 Name  |   Description 
 ----------- |   -----------
-pmcData(`object`)  |   This argument must contain the pmcData object
-barterID(`string`)  | This argument must contain an assort file ID
+pmcData(<font color="red">object</font>)  |   This argument must contain the pmcData object
+barterID(<font color="red">string</font>)  | This argument must contain an assort file ID
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 const test = itm_hf.findMoney(pmcData, barterID)
 ```

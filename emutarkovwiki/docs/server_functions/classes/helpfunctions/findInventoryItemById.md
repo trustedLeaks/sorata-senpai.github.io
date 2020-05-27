@@ -11,16 +11,16 @@ Find in the player profile the template of an given id. List is backward first i
 
 Name  |   Description 
 ----------- |   -----------
-pmcData(`object`)  |   This argument must contain the pmcData object
-itemID(`string`)    | This argument must contain an item ID
+pmcData(<font color="red">object</font>)  |   This argument must contain the pmcData object
+itemID(<font color="red">string</font>)    | This argument must contain an item ID
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 const test = itm_hf.findInventoryItemById(pmcData, itemID)
 ```

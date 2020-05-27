@@ -11,16 +11,16 @@ Function used to give the desired money to player from a trade
 
 Name  |   Description 
 ----------- |   -----------
-pmcData(`object`)  |   This value must contain the pmcData object
-body(`object`)  | This value contain the request body.
+pmcData(<font color="red">object</font>)  |   This value must contain the pmcData object
+body(<font color="red">object</font>)  | This value contain the request body.
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 itm_hf.payMoney(pmcData, body, sessionID)
 ```

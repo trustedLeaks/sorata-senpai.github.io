@@ -11,15 +11,15 @@ Calculate Size of item inputed
 
 Name  |   Description 
 ----------- |   -----------
-arg(`string`)  |   This value must contain a Item template ID, Item Id, InventoryItem (item from inventory having _id and _tpl)
+arg(<font color="red">string</font>)  |   This value must contain a Item template ID, Item Id, InventoryItem (item from inventory having _id and _tpl)
 
 
 **Output**:
 
-`array`: It return an array contain both width and height value.
+**<font color="purple">array</font>**: It return an array contain both width and height value.
 
 
-**Exemple**:
+**Example**:
 ```js
 const test = itm_hf.getPlayerStash(sessionID)
 ```

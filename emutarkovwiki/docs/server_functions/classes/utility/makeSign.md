@@ -16,10 +16,10 @@ none  |  No args are needed for this function
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 const value = utility.makeSign()
 ```

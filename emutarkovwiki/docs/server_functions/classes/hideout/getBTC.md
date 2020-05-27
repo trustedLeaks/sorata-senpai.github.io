@@ -12,17 +12,17 @@ Explanation text
 
 Name  |   Description 
 ----------- |   -----------
-pmcData(`object`)  |   This is done from reversing `escape from tarkov` game
+pmcData(<font color="purple">object</font>)  |   This is done from reversing `escape from tarkov` game
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
-// Code to exemple
+// Code to Example
 ```
 
 **Result**:

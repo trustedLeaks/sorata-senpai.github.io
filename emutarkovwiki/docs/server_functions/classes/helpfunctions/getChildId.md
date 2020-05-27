@@ -11,15 +11,15 @@ Gets the identifier for a child using slotId, locationX and locationY.
 
 Name  |   Description 
 ----------- |   -----------
-itemID(`string`)  |   This value must contain an item ID.
+itemID(<font color="red">string</font>)  |   This value must contain an item ID.
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 const test = itm_hf.getChildId(itemID)
 ```

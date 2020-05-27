@@ -11,16 +11,16 @@ Explanation text
 
 Name  |   Description 
 ----------- |   -----------
-pmcData(`object`)  |   This value must contain the pmcData object
-itemID(`string`)    | This value must contain a valid item ID
+pmcData(<font color="red">object</font>)  |   This value must contain the pmcData object
+itemID(<font color="red">string</font>)    | This value must contain a valid item ID
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 let pmcData = profile_f.profileServer.getPmcProfile(sessionID);
 const FreeSpace = itm_hf.splitStack(pmcData, itemID)

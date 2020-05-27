@@ -11,15 +11,15 @@ Delete a directory and all directories within.
 
 Name  |   Description 
 ----------- |   -----------
-dir(`string`)  |   The `dir`argument must contain a full path pointing to a directory
+dir(<font color="red">string</font>)  |   The `dir`argument must contain a full path pointing to a directory
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 let dir = json.parse(json.read("c:/path/to/directory"))
 utility.removeDir(dir)

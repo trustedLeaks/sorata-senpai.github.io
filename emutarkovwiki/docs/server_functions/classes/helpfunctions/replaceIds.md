@@ -11,15 +11,15 @@ Split item stack if it exceeds StackMaxSize
 
 Name  |   Description 
 ----------- |   -----------
-itemID(`string`)  |   This value must contain an item ID
+itemID(<font color="red">string</font>)  |   This value must contain an item ID
 
 
 **Output**:
 
-`array`: an array of these items with StackObjectsCount <= StackMaxSize
+**<font color="purple">array</font>**: an array of these items with StackObjectsCount <= StackMaxSize
 
 
-**Exemple**:
+**Example**:
 ```js
 const FreeSpace = itm_hf.replaceIds(itemID)
 ```

@@ -11,15 +11,15 @@ Explanation text
 
 Name  |   Description 
 ----------- |   -----------
-item(`string`)  |   This value must contain an item TPL
+item(<font color="red">string</font>)  |   This value must contain an item TPL
 
 
 **Output**:
 
-`boolean`
+**<font color="purple">boolean</font>**
 
 
-**Exemple**:
+**Example**:
 ```js
 const itemTPL = 'I467478Q4SDSQD'
 const convertedAmount = utility.isCategory(itemTPL)

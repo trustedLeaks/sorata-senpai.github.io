@@ -11,15 +11,15 @@ Transform a second time into a correct timestamp.
 
 Name  |   Description 
 ----------- |   -----------
-timestamp(`int`)  |   The `timestamp` arg must be an `int` value in seconds
+timestamp(<font color="red">int</font>)  |   The `timestamp` arg must be an `int` value in seconds
 
 
 **Output**:
 
-`int`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 const timestamp = utility.getTime()
 const example = utility.secondsToTime(timestamp)

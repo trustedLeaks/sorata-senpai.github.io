@@ -11,15 +11,15 @@ Check if the given tpl is a money TPL
 
 Name  |   Description 
 ----------- |   -----------
-tpl(`string`)  |   This value must be an item TPL
+tpl(<font color="red">string</font>)  |   This value must be an item TPL
 
 
 **Output**:
 
-`boolean`
+**<font color="purple">boolean</font>**
 
 
-**Exemple**:
+**Example**:
 ```js
 const tpl = 'ESNQUDHGDIQSHDQSU22222esqdqsee55'
 if (itm_hf.isMoneyTpl(tpl)) {

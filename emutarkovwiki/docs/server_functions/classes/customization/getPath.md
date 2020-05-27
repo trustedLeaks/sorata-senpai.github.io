@@ -3,7 +3,7 @@ id: getPath
 title: customization_f.getPath
 sidebar_label: getPath
 ---
-![](/img/github.png) [src/classes/customization.js](https://github.com/TrustedSourceLeaks/LeakedServer/blob/master/src/classes/customization.js#L3)
+![](/img/github.png) [src/classes/bots.js](https://github.com/TrustedSourceLeaks/LeakedServer/blob/master/src/classes/bots.js#L3)
 
 Explanation text
 
@@ -11,17 +11,17 @@ Explanation text
 
 Name  |   Description 
 ----------- |   -----------
-pmcData(`object`)  |   This is done from reversing `escape from tarkov` game
+pmcData(<font color="red">object</font>)  |   This is done from reversing `escape from tarkov` game
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
-// Code to exemple
+// Code to Example
 ```
 
 **Result**:

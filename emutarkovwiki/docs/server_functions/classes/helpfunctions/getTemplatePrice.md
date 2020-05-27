@@ -11,15 +11,15 @@ Explanation text
 
 Name  |   Description 
 ----------- |   -----------
-itemTPL(`string`)  |   This must be a valid item TPL
+itemTPL(<font color="red">string</font>)  |   This must be a valid item TPL
 
 
 **Output**:
 
-`?`: Explanation
+**<font color="purple">?</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 const itemID = 'ISQD4564SQ68DQ47'
 const test = itm_hf.getTemplatePrice(itemID)

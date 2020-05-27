@@ -85,4 +85,4 @@ SOFTWARE.
     - InNoHurryToCode for some tutorials
     - enhausser for some tutorials
     - Мастер Чиф#1334 for fixing Sorata-Senpai english
-    - Baliston for helping adding servers functions
+    - Baliston for adding servers functions

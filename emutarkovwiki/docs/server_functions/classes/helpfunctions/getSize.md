@@ -16,10 +16,10 @@ none  |  No args are needed for this function
 
 **Output**:
 
-`array`: It return an array contain both stash width and height value.
+**<font color="purple">array</font>**: It return an array contain both stash width and height value.
 
 
-**Exemple**:
+**Example**:
 ```js
 const test = itm_hf.getSize(sessionID)
 ```

@@ -11,15 +11,15 @@ Check if the given string is a currency or not
 
 Name  |   Description 
 ----------- |   -----------
-arg(`string`)  |  This value must contain a string.
+arg(<font color="red">string</font>)  |  This value must contain a string.
 
 
 **Output**:
 
-`boolean`
+**<font color="purple">boolean</font>**
 
 
-**Exemple**:
+**Example**:
 ```js
 const string = 'EUR'
 const moneyTpl = itm_hf.getCurrency(string)

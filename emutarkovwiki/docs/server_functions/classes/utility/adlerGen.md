@@ -11,15 +11,15 @@ Generate adler-32 checksum as string.
 
 Name  |   Description 
 ----------- |   -----------
-arg(`string`)  |   This is done from reversing `escape from tarkov` game
+arg(<font color="red">string</font>)  |   This is done from reversing `escape from tarkov` game
 
 
 **Output**:
 
-`string`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 const example = utility.adlerGen('I have made a lan mod for jet')
 ```

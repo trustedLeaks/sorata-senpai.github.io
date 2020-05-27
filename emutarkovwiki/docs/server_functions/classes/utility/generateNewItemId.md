@@ -16,10 +16,10 @@ none  |  No args are needed for this function
 
 **Output**:
 
-`string`: This function return a string wich contain a set of characters + numbers
+**<font color="purple">string</font>**: This function return a string wich contain a set of characters + numbers
 
 
-**Exemple**:
+**Example**:
 ```js
 function Test(){
     let ItemID = utility.generateNewItemId();

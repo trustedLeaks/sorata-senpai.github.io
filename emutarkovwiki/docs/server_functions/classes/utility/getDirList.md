@@ -11,15 +11,15 @@ List all files in a specified directory
 
 Name  |   Description 
 ----------- |   -----------
-path(`string`)  |   The `path`argument must contain a full path pointing to a directory
+path(<font color="red">string</font>)  |   The `path` argument must contain a full path pointing to a directory
 
 
 **Output**:
 
-`object`: Explanation
+**<font color="purple">string</font>**: Explanation
 
 
-**Exemple**:
+**Example**:
 ```js
 const example = utility.getDirList('C:/Battlestate Games/BsgLauncher/')
 ```
