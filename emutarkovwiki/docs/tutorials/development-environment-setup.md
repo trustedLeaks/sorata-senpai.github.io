@@ -3,6 +3,8 @@ id: development-environment-setup
 title: How to setup the files
 sidebar_label: Tutorial - How to setup the files
 ---
+![](/img/tutorials_settingup.png)
+
 
 ## Requirements:
 Here is all the softs you will need in order to build your development/play environment. All softs are linked to their official website to download, always pick the most updated version of it ! (except for VStudio)
@@ -13,6 +15,7 @@ Here is all the softs you will need in order to build your development/play envi
 * [Visual Studio 2017/2019](https://visualstudio.microsoft.com/en/vs/community/)
 * [Github Desktop](https://desktop.github.com/)
 * [An account at github.com](https://github.com/join)
+* [ Ressource hacker](http://angusj.com/resourcehacker/)
 * A little bit of logic
 
 ## Obtaining the files
@@ -36,15 +39,16 @@ Here is all the softs you will need in order to build your development/play envi
 ### Server
 1. Download and install **VSCodium**.
 2. Download and install **node.js (stable release)**.
-3. Open the server folder with VSCodium.
-4. Go to menu bar -> Terminal -> Run Task... -> Setup -> Continue without scanning the task output.
+3. Download **Ressource Hacker** and drop it in /dev/bin/
+4. Open the server folder with VSCodium.
+5. Go to menu bar -> Terminal -> Run Task... -> npm -> Setup -> Continue without scanning the task output.
 *  For running the server.
-5. Pick one of the following:
+6. Pick one of the following:
     1. F5.
     2. menu bar -> debug -> start debugging.
     3. sidebar -> insect icon -> green arrow.
 * For building the server.
-6. Pick one of the following:
+7. Pick one of the following:
     1. ctrl + shift + b.
     2. menu bar -> terminal -> run build task.
 

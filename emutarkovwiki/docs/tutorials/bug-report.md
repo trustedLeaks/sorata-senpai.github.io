@@ -3,6 +3,9 @@ id: bug-report
 title: How to report a bug
 sidebar_label: Tutorial - Bug report
 ---
+![](/img/tutorials_bugs.png)
+
+
 ## Requirements
 - a github account (create one for free if you haven't already!)
 - make sure that it's indeed a bug you report!

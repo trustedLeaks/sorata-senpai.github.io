@@ -3,6 +3,8 @@ id: edit_the_player_profile
 title: Editing differents things in my player profile
 sidebar_label: Tutorial - Editing differents things in my player profile
 ---
+![](/img/tutorials_profiles.png)
+
 
 ## Requirements
 For doing **any** edits in EmuTarkov i higly recommend you to use this software :

@@ -3,6 +3,8 @@ id: create_weather
 title: Creating a weather preset
 sidebar_label: Tutorial - How to create a weather preset
 ---
+![](/img/tutorials_weather.png)
+
 
 ## STILL UNDER DEVELOPMENT
 So yeah, information on this page is likely to change in the future

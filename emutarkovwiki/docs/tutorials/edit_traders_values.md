@@ -3,6 +3,8 @@ id: edit_traders_values
 title: Change some traders behaviour
 sidebar_label: Tutorial - Change some traders behaviour
 ---
+![](/img/tutorials_traders.png)
+
 
 ## Requirements
 For doing **any** edits in EmuTarkov i higly recommend you to use this software :
@@ -56,7 +58,7 @@ What does all this shit means ? Here we go, i tell you :
 * **"availability":**
 	* This define if the trader can insure your items or not.
 * **"min_payment":**
-	* This is actually not used.
+	* This is used to not allow people to insure their items under a certain price.
 * **"min_return_hour":**
 	* This define the minimum time before an insured item to be sent you to your mail list.
 * **"max_return_hour":**

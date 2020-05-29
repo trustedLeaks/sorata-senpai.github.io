@@ -3,6 +3,8 @@ id: edit_weapons_textures
 title: Edit weapons textures
 sidebar_label: Tutorial - Edit weapons textures
 ---
+![](/img/tutorials_textures.png)
+
 
 ## Explanation
 What we are going to do, is editing base gamefiles textures of a weapon, for making it a camo texture.

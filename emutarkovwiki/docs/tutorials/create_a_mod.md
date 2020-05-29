@@ -3,6 +3,9 @@ id: create_a_mod
 title: Create a mod on EmuTarkov
 sidebar_label: Tutorial - How to create a mod on EmuTarkov
 ---
+![](/img/tutorials_mods.png)
+
+
 ## Requirements:
 You will need these requirements in order to successfully create your mod.
 

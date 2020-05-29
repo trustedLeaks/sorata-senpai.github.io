@@ -3,6 +3,8 @@ id: photoshop_texture_editing
 title: Edit weapons textures with photoshop
 sidebar_label: Tutorial - Edit weapons textures with photoshop
 ---
+![](/img/tutorials_textures.png)
+
 
 ![](https://i.imgur.com/zZwtceG.png)
 

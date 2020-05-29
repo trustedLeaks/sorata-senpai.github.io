@@ -3,6 +3,9 @@ id: edit_globals_values
 title: Change global values of the server
 sidebar_label: Tutorial - Change global values of the server
 ---
+![](/img/tutorials_globals.png)
+
+
 ## Requirements
 For doing **any** edits in EmuTarkov, i higly recommend you to use this software :
 * [VSCodium](https://github.com/VSCodium/vscodium/releases)
