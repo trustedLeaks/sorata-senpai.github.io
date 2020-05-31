@@ -5,72 +5,116 @@ sidebar_label: Tutorial - How to setup the files
 ---
 ![](/img/tutorials_settingup.png)
 
+## Requirements
 
-## Requirements:
-Here is all the softs you will need in order to build your development/play environment. All softs are linked to their official website to download, always pick the most updated version of it ! (except for VStudio)
-
-* [VSCodium](https://vscodium.com/)
-* [Downlading the project you need](https://github.com/TrustedSourceLeaks)
-* [NodeJS](https://nodejs.org/en/)
-* [Visual Studio 2017/2019](https://visualstudio.microsoft.com/en/vs/community/)
-* [Github Desktop](https://desktop.github.com/)
 * [An account at github.com](https://github.com/join)
-* [ Ressource hacker](http://angusj.com/resourcehacker/)
-* A little bit of logic
+* [Visual Studio 2017/2019](https://visualstudio.microsoft.com/en/vs/community/)
+* [VSCodium](https://vscodium.com/)
+* [A microsoft account](https://account.microsoft.com/account) (for Visual Studio 2019)
+* [Github Desktop](https://desktop.github.com/)
+* [NodeJS](https://nodejs.org/en/)
+* [Ressource hacker](http://angusj.com/resourcehacker/)
+* The ability to read
+* Patience
+* Enough time to not rush through the process
+* A copy of escape from tarkov which matches with emutarkov’s work
+* A working internet connection
 
-## Obtaining the files
+:::warning
+Make sure to follow **all the steps** below before asking help. Don't assume things you can't assume and carefully read **everything**.
+:::
 
-1. Create a free github account.
-2. Go to https://github.com/TrustedSourceLeaks
-3. Select the project you want to work on and fork it.
-4. Download github desktop and install github desktop.
-5. Login with your github account.
-6. Clone the forked repository.
+## 1. Installing your developer environment
 
-### Launcher, Emulib
-1. Download visual studio 2017/2019.
-2. Install with .NET workload and the following components:
-    - .NET Framework 2.0
-    - .NET Framework 4.6.1
+### Visual Studio 2019 (VC2019)
+1. Download Visual Studio Community edition
+2. Run the installer
+3. For workload, select .NET Desktop (C#)
+4. Press install
+5. Login with your microsoft account when prompted
+
+### Visual Studio Codium (VSCodium)
+1. Download Visual Studio Codium
+2. Run the installer
+3. Press install
+
+### NodeJS
+1. Download NodeJS
+2. Run the installer
+3. Make sure to select “Add to PATH”
+4. Deselect installation of chocolaty
+5. Press install
+
+### Github Desktop
+1. Download Github Desktop
+2. Run the installer
+3. Login with your github account
 
 
-## Starting the development projects
+## 2. Obtaining the files
 
-### Server
-1. Download and install **VSCodium**.
-2. Download and install **node.js (stable release)**.
-3. Download **Ressource Hacker** and drop it in /dev/bin/
-4. Open the server folder with VSCodium.
-5. Go to menu bar -> Terminal -> Run Task... -> npm -> Setup -> Continue without scanning the task output.
-*  For running the server.
-6. Pick one of the following:
-    1. F5.
-    2. menu bar -> debug -> start debugging.
-    3. sidebar -> insect icon -> green arrow.
-* For building the server.
-7. Pick one of the following:
-    1. ctrl + shift + b.
-    2. menu bar -> terminal -> run build task.
+1. Go to https://github.com/TrustedSourceLeaks 
+2. Open every repository in a new tab
+3. For each repository, click on “Clone or Download” -> “Open in desktop”
+ 
 
+## 3. Setting up the server
+
+1. Download ResourceHacker (zip file)
+2. Unzip the resource hacker zip
+3. Copy ResourceHacker.exe
+4. Github desktop -> select the LeakedServer repository
+5. Click the “view in explorer” button
+6. Go to the dev folder
+7. Create a new folder named “bin” (without quotes)
+8. Paste ResourceHacker.exe in the bin folder
+9. Github desktop -> select the LeakedServer repository
+10. Click the “open in editor” button
+11. VSCode -> Menu Bar -> Run -> Run task... -> NPM -> Install
+
+
+### Building the server
+:::note
+This step require internet only the first time you do it
+:::
+
+1. VSCode -> Menu Bar -> Run -> Run build task
+2. In the `(project root)` folder, `EmuTarkov-Server.exe` should appear
+
+
+### Building the launcher
+
+1. Github desktop -> select the LeakedClient repository
+2. Click the “view in explorer” button
+3. Click on Client.sln
+4. VS2019 -> Menu Bar-> Build -> Rebuild solution
+5. In `(project root)/Launcher/bin/debug/`, a file named `EmuTarkov-Launcher.exe` is located
+6. Copy-paste `EmuTarkov-Launcher.exe` in the game’s root directory
+
+
+### Building the modules
+
+:::note
+This step require internet only the first time you do it
+:::
 :::info
-You're not forced to build the server in order to use it.
+I will be referencing to `EscapeFromTarkov_Data/Managed/` as `managed`.
 :::
 
-### Launcher, emulib
-1. Open visual Studio 2017
-2. Click on Toolbar -> File -> Project/Solution -> Open Client.sln
-3. Click on Toolbar -> Build -> Rebuild Solution
-4. Copy `Launcher/bin/<target>/EmuTarkov-Launcher.exe` into *GameDir/*
-
-:::caution Attention
-If an error appear about Emulibs thing, ignore it
-:::
-
-### Modules
-1. Go to Visual Studio -> menubar -> rebuild.
-2. Copy-paste **Shared/Nlog.config.nlog** into *Build/Debug/*.
-3. Copy-paste **all files inside Build/** into *EscapeFromTarkov_Data/Managed/*, overwrite when prompted.
-
+1. Github desktop -> select the LeakedModules repository.
+2. Click the “view in explorer” button.
+3. Click on Modules.sln.
+4. VS2019 -> Menu Bar-> Build -> Rebuild solution.
+5. In `(project root)/Shared/`, a file named `Nlog.dll.nlog` is located.
+6. Copy-paste `Nlog.dll.nlog` into the `managed` directory.
+7. In `(project root)/Emutarkov.Common/bin/debug/`, 2 files should be located: `0Harmony.dll` and `Nlog.EmuTarkov.Common.dll`.
+8. Copy both into `managed`.
+9. In `(project root)/Emutarkov.Core/bin/debug/`, a file named `Nlog.EmuTarkov.Core` is located.
+10. Copy-paste `Nlog.EmuTarkov.Core` into `managed`.
+11. In `(project root)/Emutarkov.SinglePlayer/bin/debug/`, a file named `Nlog.EmuTarkov.SinglePlayer` is located.
+12. Copy-paste `Nlog.EmuTarkov.SinglePlayer` into `managed`.
+13. In `(project root)/Shared/References`, a file named `Assembly-CSharp.dll` is located.
+14. Copy-paste  `Assembly-CSharp.dll` into `managed`.
 
 ## Thanks
 **Tutorial made by : Senko-San**
