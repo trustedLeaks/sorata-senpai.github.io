@@ -1,4 +1,4 @@
----
+﻿---
 id: development-environment-setup
 title: How to setup the files
 sidebar_label: Tutorial - How to setup the files
@@ -7,21 +7,18 @@ sidebar_label: Tutorial - How to setup the files
 
 ## Requirements
 
-* [An account at github.com](https://github.com/join)
-* [Visual Studio 2017/2019](https://visualstudio.microsoft.com/en/vs/community/)
-* [VSCodium](https://vscodium.com/)
+* [A github account](https://github.com/join)
 * [A microsoft account](https://account.microsoft.com/account) (for Visual Studio 2019)
+* [Visual Studio 2017 / 2019](https://visualstudio.microsoft.com/en/vs/community/)
+* [VSCodium](https://vscodium.com/)
 * [Github Desktop](https://desktop.github.com/)
 * [NodeJS](https://nodejs.org/en/)
-* [Ressource hacker](http://angusj.com/resourcehacker/)
-* The ability to read
-* Patience
-* Enough time to not rush through the process
+* [Resource hacker](http://angusj.com/resourcehacker/)
 * A copy of escape from tarkov which matches with emutarkov’s work
 * A working internet connection
 
 :::warning
-Make sure to follow **all the steps** below before asking help. Don't assume things you can't assume and carefully read **everything**.
+Make sure to follow **all the steps** below before asking help. Don't assume things Wand carefully read **everything**.
 :::
 
 ## 1. Installing your developer environment
@@ -82,16 +79,6 @@ This step require internet only the first time you do it
 2. In the `(project root)` folder, `EmuTarkov-Server.exe` should appear
 
 
-### Building the launcher
-
-1. Github desktop -> select the LeakedClient repository
-2. Click the “view in explorer” button
-3. Click on Client.sln
-4. VS2019 -> Menu Bar-> Build -> Rebuild solution
-5. In `(project root)/Launcher/bin/debug/`, a file named `EmuTarkov-Launcher.exe` is located
-6. Copy-paste `EmuTarkov-Launcher.exe` in the game’s root directory
-
-
 ### Building the modules
 
 :::note
@@ -105,19 +92,18 @@ I will be referencing to `EscapeFromTarkov_Data/Managed/` as `managed`.
 2. Click the “view in explorer” button.
 3. Click on Modules.sln.
 4. VS2019 -> Menu Bar-> Build -> Rebuild solution.
-5. In `(project root)/Shared/`, a file named `Nlog.dll.nlog` is located.
-6. Copy-paste `Nlog.dll.nlog` into the `managed` directory.
-7. In `(project root)/Emutarkov.Common/bin/debug/`, 2 files should be located: `0Harmony.dll` and `Nlog.EmuTarkov.Common.dll`.
-8. Copy both into `managed`.
-9. In `(project root)/Emutarkov.Core/bin/debug/`, a file named `Nlog.EmuTarkov.Core` is located.
-10. Copy-paste `Nlog.EmuTarkov.Core` into `managed`.
-11. In `(project root)/Emutarkov.SinglePlayer/bin/debug/`, a file named `Nlog.EmuTarkov.SinglePlayer` is located.
-12. Copy-paste `Nlog.EmuTarkov.SinglePlayer` into `managed`.
-13. In `(project root)/Shared/References`, a file named `Assembly-CSharp.dll` is located.
-14. Copy-paste  `Assembly-CSharp.dll` into `managed`.
+5. Copy-paste the contents of `(project root directory)/build` into the game root directory
+
 
 ## Thanks
 **Tutorial made by : Senko-San**
+
+
+## Revisions
+
+1. added instructions for assembly-charp, slight wording change
+2. changed the instruction to reflect the new build procedure
+
 
 ## Official links
 **Discord link**: https://discord.gg/3sR4KKS
