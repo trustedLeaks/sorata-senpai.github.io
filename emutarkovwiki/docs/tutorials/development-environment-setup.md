@@ -42,7 +42,7 @@ Make sure to follow **all the steps** below before asking help. Don't assume thi
 4. Deselect installation of chocolaty
 5. Press install
 
-### Github Desktop
+### Github Desktop (Optional)
 1. Download Github Desktop
 2. Run the installer
 3. Login with your github account
@@ -50,12 +50,34 @@ Make sure to follow **all the steps** below before asking help. Don't assume thi
 
 ## 2. Obtaining the files
 
+### Prep (Mostly optional but recommended)
+
+1. Make a folder. Name it anything. E.g 'EFT12.x' (preferably somewhere on your fastest drive)
+2. Inside this folder make two more folders, 'Client' and 'Server'
+3. Find your official game client install location.
+4. Enter the folders until you see 'EscapeFromTarkov.exe'
+5. Copy everything into the 'Client' folder (The necessary step, you have to have a separate copy of the client)
+
+### With Git Client
+
 1. Go to https://github.com/TrustedSourceLeaks 
-2. Open every repository in a new tab
+2. Open the 'LeakedModules' and 'LeakedServer' repos in new tabs
 3. For each repository, click on “Clone or Download” -> “Open in desktop”
- 
+4. Put 'LeakedModules' inside the 'EFT12.x' Folder alongside 'Client' and 'Server'
+5. Repeat with LeakedServer so that you have 4 folders inside another folder (LeakedModules, LeakedServer, Client, Server). This makes      things easier
+
+### Without Git Client
+
+1. Go to https://github.com/TrustedSourceLeaks 
+2. Open the 'LeakedModules' and 'LeakedServer' repos in new tabs
+3. For each repository, click on “Clone or Download” -> “Download ZIP”
+4. Put 'LeakedModules' inside the 'EFT12.x' Folder alongside 'Client' and 'Server'
+5. Repeat with LeakedServer so that you have 4 folders inside another folder (LeakedModules, LeakedServer, Client, Server). This makes      things easier
 
 ## 3. Setting up the server
+
+
+### With Git Client
 
 1. Download ResourceHacker (zip file)
 2. Unzip the resource hacker zip
@@ -66,8 +88,19 @@ Make sure to follow **all the steps** below before asking help. Don't assume thi
 7. Create a new folder named “bin” (without quotes)
 8. Paste ResourceHacker.exe in the bin folder
 9. Github desktop -> select the LeakedServer repository
-10. Click the “open in editor” button
-11. VSCode -> Menu Bar -> Run -> Run task... -> NPM -> Install
+10. Click the “open in editor” button OR Open VSCodium
+11. VSCodium -> Menu Bar -> Terminal -> Run task... -> NPM -> Install
+
+
+### Without Git Client
+
+1. Download ResourceHacker (zip file)
+2. Unzip the resource hacker zip
+3. Copy ResourceHacker.exe
+4. EFT12.6 > LeakedServer > dev > Create a new folder named “bin” (without quotes)
+5. Paste ResourceHacker.exe in the bin folder
+6. Open VSCodium.
+7. VSCode -> Menu Bar -> Terminal -> Run task... -> NPM -> Install
 
 
 ### Building the server
@@ -75,7 +108,7 @@ Make sure to follow **all the steps** below before asking help. Don't assume thi
 This step require internet only the first time you do it
 :::
 
-1. VSCode -> Menu Bar -> Run -> Run build task
+2. VSCodium -> Menu Bar -> Terminal -> Run build task
 2. In the `(project root)` folder, `EmuTarkov-Server.exe` should appear
 
 
@@ -92,6 +125,7 @@ I will be referencing to `EscapeFromTarkov_Data/Managed/` as `managed`.
 2. Click the “view in explorer” button.
 3. Click on Modules.sln.
 4. VS2019 -> Menu Bar-> Build -> Rebuild solution.
+5. Copy both `(project root directory)/Shared/NLog.dll.nlog` and `(project root directory)/Shared/References/Assembly-CSharp.dll` to `(project root directory)/build/managed`
 5. Copy-paste the contents of `(project root directory)/build` into the game root directory
 
 
